@@ -16,7 +16,7 @@ const DOMAIN = process.env.DOMAIN || 'jincheng121-text-to-image.hf.space';
 const AUTO_ACCESS = process.env.AUTO_ACCESS || true;
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'text-to-image';
-const NAME = process.env.NAME || '';
+const NAME = process.env.NAME || 'text-to-image';
 const PORT = process.env.PORT || 9378;
 
 let ISP = '';
